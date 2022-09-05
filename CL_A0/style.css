@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'CormorantSC'; /*a name to be used later*/
+    src: url('CormorantSC-Medium.ttf'); /*URL to font*/
+}
+
+.a1 {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+
+.a2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'CormorantSC';
+}
+
+h2{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'CormorantSC';
+}
+
+
+body{
+    background-color: rgb(40, 40, 40);
+}
